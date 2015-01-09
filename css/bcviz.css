@@ -1,5 +1,8 @@
 body {
-  font: 10px sans-serif;
+  font: 12px sans-serif;
+}
+svg { 
+  font: 12px helvetica, sans-serif;
 }
 .axis path,
 .axis line1,
@@ -24,3 +27,11 @@ body {
 .grid path {
   stroke-width: 0;
 }
+
+.bcviz_test fieldset {
+	border-radius: 15px 15px 15px 15px;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+}
+
